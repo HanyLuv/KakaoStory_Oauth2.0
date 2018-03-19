@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/detail_user_imageview"
+        android:layout_width="80dp"
+        android:contentDescription="@string/description_detail_user_image"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/detail_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/detail_user_imageview"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detail_username_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/username"
+            android:textColor="@color/default_txt_color"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_created_at_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/createAt"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/detail_contents_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/contents"
+            android:textColor="@color/default_txt_color"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

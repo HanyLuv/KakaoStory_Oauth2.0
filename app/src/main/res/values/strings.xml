@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">카카오스토리 프로젝트</string>
+    <string name="api_consumer_key">jmf46ooGtJyys04zaCZGv9mrs</string>
+    <string name="api_secret_key">GopcpYbDYQUkhJq9Jkd7iore9gutu1nN5lKPFVD3dHusvTAw1g</string>
+    <string name="access_token">971361729362849792-onXtdpWBtx31ahsQMmmWjBWumrOBZv2</string>
+    <string name="access_token_failed">토큰의 유효시간이 만료 되었습니다.</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="shared_detail_photo">shared_detail_photo</string>
+
+    <string name="description_kakao_button">description_kakao_button</string>
+    <string name="description_comment_user_image">description_comment_user_image</string>
+    <string name="description_detail_user_image">description_detail_user_image</string>
+    <string name="description_story_image">description_story_image</string>
+    <string name="description_navi_user_background">description_navi_user_background</string>
+    <string name="description_navi_user_photo">description_navi_user_photo</string>
+
+
+    <string name="logout">로그아웃</string>
+    <string name="comment">댓글</string>
+    <string name="like">느낌</string>
+    <string name="username">사용자 이름</string>
+    <string name="contents">콘텐츠</string>
+    <string name="createAt">작성시간</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="detail_fragment" type="id"/>
+    <item name="login_fragment" type="id"/>
+    <item name="feed_fragment" type="id"/>
+</resources>

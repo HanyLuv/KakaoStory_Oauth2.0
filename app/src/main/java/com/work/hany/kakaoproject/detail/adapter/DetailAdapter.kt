@@ -42,9 +42,11 @@ class DetailAdapter(private var fm: FragmentManager,
 
     override fun getItemCount(): Int {
         var itemCount = 1 //헤더 값
-        if (story.media != null) {
-            itemCount += story.media.size
+
+        story.media?.let {
+            itemCount += it.size
         }
+
         return itemCount
     }
 

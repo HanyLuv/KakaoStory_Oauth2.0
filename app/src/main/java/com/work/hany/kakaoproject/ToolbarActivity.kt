@@ -21,7 +21,7 @@ abstract class ToolbarActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        if (findViewById<Toolbar>(R.id.tool_bar) != null) {
+        findViewById<Toolbar>(R.id.tool_bar)?.let {
             setSupportActionBar(tool_bar)
         }
     }

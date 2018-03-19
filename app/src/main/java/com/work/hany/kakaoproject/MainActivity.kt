@@ -149,8 +149,8 @@ class MainActivity : ToolbarActivity() {
                 }
 
                 var currentHeaderView = navigationView.getHeaderView(0)
-                if (currentHeaderView != null) {
-                    navigationView.removeHeaderView(currentHeaderView)
+                currentHeaderView?.let{
+                    navigationView.removeHeaderView(it)
                 }
 
                 var headerView = LayoutInflater.from(this@MainActivity).inflate(R.layout.navigation_header_user_info, null)

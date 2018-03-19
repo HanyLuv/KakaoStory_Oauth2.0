@@ -81,8 +81,8 @@ class DetailFragment : Fragment(), ResponseListener<KakaoStory> {
 
         initDetailView(data)
 
-        if (data.comments != null) {
-            initCommentView(data.comments as ArrayList<Comment>)
+        data.comments?.let{
+            initCommentView(it as ArrayList<Comment>)
         }
     }
 
